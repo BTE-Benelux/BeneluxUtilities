@@ -1,0 +1,11 @@
+name: BeneluxUtilities
+version: '${project.version}'
+main: be.kyanvde.beneluxutilities.BeneluxUtilities
+api-version: 1.20
+authors: [ Kyanvde ]
+description: A utility plugin for the BuildTheEarth Benelux server.
+website: kyanvde.be
+commands:
+  goto:
+    description: "Teleports you to an address."
+    usage: /goto address
